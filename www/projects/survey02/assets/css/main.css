@@ -1,0 +1,33 @@
+body {
+  background-color: lightgrey;
+  font-family: "Sigmar One";
+  font-weight: lighter;
+}
+
+div {
+  color: magenta;
+  padding-left: 15px;
+}
+
+.question {
+  color: cyan;
+  padding-left: 0px;
+}
+
+p {
+  color: gray;
+}
+
+.question-container {
+	border-style: ridge;
+	border-radius: 25px;
+	border-color: yellow;
+  outline-style: dotted;
+  outline-color: magenta;
+
+}
+h1 {
+  color: white;
+}
+
+font-family: 'Sigmar One', cursive;

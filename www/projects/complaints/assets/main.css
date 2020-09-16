@@ -1,0 +1,305 @@
+body {
+	background-image: url("background.jpg");
+	color: white;
+	display: flex;
+	width: 1200px;
+	height:800px;
+	margin-left: 400px;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+div {
+	margin-top: 500px;
+}
+
+a {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+	z-index: -1;
+}
+
+a:link {	
+	position: static;
+	color: white;
+	text-decoration: none;
+    background: navy;
+    margin-left: -350px;
+    margin-top: -50px;
+    padding: 20px 80px 20px 80px;
+    width: 530px;
+    height: 20px;
+    text-align: center;
+    border-style: ridge;
+    border-width: 5px;
+
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: navy;
+	text-decoration: none;
+	background-color: lightyellow;
+}
+
+a:active {
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	padding: 30px 80px 30px 80px;
+	border-width: default;
+	border-width: 35px;
+}
+
+p {
+	font-family: 'Quicksand', sans-serif;
+	padding-top: 20px;
+}
+
+.stars {
+ 	transition: transform .2s; /* Animation */
+ 	position: relative;
+}
+
+.stars:hover {
+	transform: scale(12);
+}
+
+.dots {
+	background-color: white;
+	border-radius: 50%;
+}
+
+#one {
+	left: -50px;
+	top: -120px;
+	width: 11px;
+	height: 11px;	
+}
+
+#textone {
+  top: -499px;
+}
+
+#two {
+	top: -420px;
+	width: 17px;
+	height: 17px;
+}
+
+#texttwo {
+  top: -496px;
+}
+
+#thr {
+	left: -440px;
+	top: -440px;
+	width: 17px;
+	height: 17px;
+}
+
+#textthr {
+  top: -495px;
+}
+
+#fou {
+	left: 850px;
+	top: -230px;
+	width: 20px;
+	height: 20px;
+}
+
+#textfou {
+  top: -495px;
+}
+
+#fiv {
+	left: 1000px;
+	top: -380px;
+	width: 17px;
+	height: 17px;
+}
+
+#textfiv {
+  top: -495px;
+}
+
+#six {
+	left: 1000px;
+	top: -50px;
+	width: 18px;
+	height: 18px;
+}
+
+#textsix {
+  top: -495px;
+}
+
+#sev {
+	left: -480px;
+	top: 0px;
+	width: 15px;
+	height: 15px;
+}
+
+#textsev {
+  top: -496px;
+}
+
+#eig {
+	left: -100px;
+	top: 100px;
+	width: 18px;
+	height: 18px;
+}
+
+#texteig {
+  top: -495.5px;
+}
+
+#nin {
+	left: 400px;
+	top: -170px;
+	width: 17px;
+	height: 17px;
+}
+
+#textnin {
+  top: -496px;
+}
+
+#ten {
+	left: 500px;
+	top: -430px;
+	width: 12px;
+	height: 12px;
+}
+
+#textten {
+  top: -497px;
+}
+
+#ele {
+	left: 40px;
+	top: -230px;
+	width: 14px;
+	height: 14px;
+}
+
+#textele {
+  top: -496px;
+}
+
+#twe {
+	left: -400px;
+	top: -275px;
+	width: 22px;
+	height: 22px;
+}
+
+#texttwe {
+  top: -494px;
+}
+
+#thi {
+	left: 1000px;
+	top: -270px;
+	width: 22px;
+	height: 22px;
+}
+
+#textthi {
+  top: -494px;
+}
+
+#fourt {
+	left: -10px;
+	top: -380px;
+	width: 25px;
+	height: 25px;
+}
+
+#textfourt {
+  top: -491px;
+}
+
+#fif {
+	left: -170px;
+	top: -50px;
+	width: 28px;
+	height: 28px;
+}
+
+#textfif {
+  top: -489px;
+}
+
+#sixt {
+	left: -300px;
+	top: -245px;
+	width: 32px;
+	height: 32px;
+}
+
+#textsixt {
+  top: -488px;
+}
+
+#sevt {
+	left: -500px;
+	top: 20px;
+	width: 45px;
+	height: 45px;
+}
+
+#textsevt {
+  top: -484px;
+}
+
+#eigt {
+	left: 700px;
+	top: -300px;
+	width: 53px;
+	height: 53px;
+}
+
+#texteigt {
+  top: -480px;
+}
+
+#nint {
+	left: 300px;
+	top: -280px;
+	width: 45px;
+	height: 45px;
+}
+
+#textnint {
+  top: -484px;
+}
+
+#twen {
+	left: 630px;
+	top: 90px;
+	width: 50px;
+	height: 50px;
+}
+
+#texttwen {
+  top: -484px;
+}
+
+.TEXT {
+  color: navy;
+  position: absolute;
+  width: -50px;
+  text-align: center;
+  font-size: 1.5px;
+  font-family: 'Quicksand', sans-serif;
+}

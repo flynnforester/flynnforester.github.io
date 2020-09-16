@@ -1,0 +1,36 @@
+body {
+	background-color: #8400FF;
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+}
+
+p {
+	letter-spacing: 3px;
+	font-size: 40px;
+	margin-top: 0px;
+}
+
+.home {
+	font-size: 20px;
+
+}
+
+a {
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+	text-decoration: none;
+}
+
+a:active {
+	color: red;
+}
+
+a:visited {
+	color: #4D0492;
+}
+

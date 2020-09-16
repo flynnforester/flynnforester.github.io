@@ -1,0 +1,252 @@
+body {
+	background-color: black;
+	color: white;
+	/*border-style: solid;*/
+	/*border-color: white;*/
+	/*border-radius: 25px;*/
+
+}
+
+.background {
+    position: relative;
+    width: auto;
+    height: 7.5in;
+    background-color: #186D62;
+    border-style: ridge;
+    border-color: white;
+    border-radius: 25px;
+}
+
+.topgrid {
+    position: absolute;
+    top: 0px;
+    padding: 50px;
+
+}
+
+h2 {
+    font-size: 31px;
+    margin: 5px 5px 5px -8px;
+}
+
+div {
+	padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.style-one {
+    width: 1in;
+    height: 1in;
+    border-style: solid;
+    border-color: white;
+    border-left-width: 1.5px;
+    border-right-width: 1.5px;
+    border-bottom-width: 1.5px;
+    padding: 15px;
+    font-family: 'Bellota Text', cursive;
+
+}
+
+.style-two {
+   width: 1in;
+    height: 1in;
+    border-style: solid;
+    border-color: white;
+    border-left-width: 1.5px;
+    border-right-width: 1.5px;
+    border-bottom-width: 1.5px;
+    padding: 15px;
+    font-family: 'Bellota Text', cursive;
+
+}
+
+.style-title {
+   width: 1in;
+    height: 1in;
+    border-style: solid;
+    border-color: white;
+    border-left-width: 1.5px;
+    border-right-width: 1.5px;
+    padding: 15px;
+    border-bottom-width: 1.5px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.style-three {
+   width: 1in;
+    height: 1in;
+    border-style: solid;
+    border-color: white;
+    border-left-width: 1.5px;
+    border-right-width: 1.5px;
+    padding: 15px;
+    border-bottom-width: 1.5px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.style-red {
+    width: 1in;
+    height: 1in;
+    border-style: solid;
+    border-color: white;
+    border-left-width: 1.5px;
+    border-right-width: 1.5px;
+    border-bottom-width: 1.5px;
+    padding: 15px;
+}
+
+.style-blue {
+    width: 1in;
+    height: 1in;
+    border-style: solid;
+    border-color: white;
+    border-left-width: 1.5px;
+    border-right-width: 1.5px;
+    border-bottom-width: 1.5px;
+    padding: 15px;
+}
+
+.style-yellow {
+    width: 1in;
+    height: 1in;
+    border-style: solid;
+    border-color: white;
+    border-left-width: 1.5px;
+    border-right-width: 1.5px;
+    border-bottom-width: 1.5px;
+    padding: 15px;
+}
+
+.body {
+    padding-left: .5in;
+    padding-right: .5in;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 5px 0px;
+}
+
+.style-three:visited {
+    color: yellow;
+}
+
+.style-three:hover {
+    color: blue
+}
+
+.style-three:active {
+    color: red;
+}
+
+div .style-one:hover {
+    background-color: white;  
+}
+
+div .style-red:hover {
+    background-color: red;   
+}
+
+div .style-red:active {
+    background-color: yellow;   
+}
+
+div .style-blue:hover {
+    background-color: blue;    
+}
+
+div .style-blue:active {
+    background-color: red;   
+}
+
+div .style-yellow:hover {
+    background-color: yellow;   
+}
+
+div .style-yellow:active {
+    background-color: blue;   
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active{
+    color: red;
+}
+
+.ruler, .ruler li {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+    display: inline-block;
+    color: white;
+}
+/* IE6-7 Fix */
+.ruler, .ruler li {
+    *display: inline;
+}
+
+.ruler li {
+    padding-left: 0px 0px 0px 0px;
+    width: 2em;
+    margin: 23px 25px 5px 68px;
+    text-align: center;
+    position: relative;
+}
+.ruler li:before {
+    content: '';
+    position: absolute;
+    border-left: 1px solid white;
+    height: 1em;
+    top: -1.6em;
+    right: 1em;
+}
+
+.rulertop, .rulertop li {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+    display: inline-block;
+    color: white;
+}
+/* IE6-7 Fix */
+.rulertop, .rulertop li {
+    *display: inline;
+}
+
+.rulertop li {
+    padding-left: 0px 0px 0px 0px;
+    width: 2em;
+    margin: 23px 25px 5px 68px;
+    text-align: center;
+    position: relative;
+}
+.rulertop li:before {
+    content: '';
+    position: absolute;
+    border-left: 1px solid white;
+    height: 1em;
+    top: 1.2em;
+    right: 1em;
+}
+
+#li1 {
+    margin-left: 33px;
+}
+
+#li1b {
+    margin-left: -15px;
+}
+
+#li14 {
+    margin-left: 67px;
+}

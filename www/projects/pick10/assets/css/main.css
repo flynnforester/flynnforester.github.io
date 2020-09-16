@@ -1,0 +1,41 @@
+body {
+	color: black;
+	font-family: 'Odibee Sans', cursive;
+	font-size: 25px;
+}
+
+h2 {
+	text-align: left;
+}
+
+h1 {
+	margin: 10px 0px;
+	font-size: 65px;
+}
+
+.number {
+	display: flex;
+	
+}
+
+.number div {
+	margin: 10px 10px;
+	font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: magenta;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:active {
+	color: grey;
+}

@@ -1,0 +1,196 @@
+body {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+}
+
+#home {
+	color: white;
+	font-family: 'Lacquer';
+	text-decoration: none;
+}
+
+.one {
+	color: white;
+	font-size: 35px;
+	padding: 15px 15px 15px 15px;
+	font-family: 'Lacquer';
+	margin: 100px 0px 100px 0px;
+	position: absolute;
+}
+
+.two {
+	font-family: 'Lacquer';
+	color: white;
+	font-size: 100px;
+	padding-left: 15px;
+}
+
+.link {
+	text-decoration: none;
+}
+
+#one {
+	top: 70px;
+}
+
+#two {
+	align-items: flex-end;
+	right: 0px;
+	top: 150px;
+}
+
+#three {
+	top: 400px;
+}
+
+#four {
+	transform: rotate(30deg);
+	right: 0px;
+	top: 500px;
+}
+
+#five {
+	top: 700px;
+}
+
+#six {
+	transform: rotate(-10deg);
+	top: 1000px;
+}
+
+#seven {
+	top: 900px;
+	right: 0px;
+}
+
+#eight {
+	top: 1300px;
+}
+
+#nine {
+	top: 1200px;
+	right: 0px;
+	transform: rotate(10deg);
+}
+
+#ten {
+	top: 1600px;
+}
+
+#eleven {
+	top: 1700px;
+	right: 0px;
+}
+
+#twelve {
+	top: 1900px;
+	transform: rotate(20deg);
+}
+
+#thirteen {
+	top: 2100px;
+	right: 0px;
+}
+
+h3 {
+	letter-spacing: -5px;
+	font-weight: normal;
+	font-size: 35px;
+}
+
+h2 {
+	letter-spacing: -10px;
+	font-weight: normal;
+	font-size: 35px;
+}
+
+div.thirteen:hover h3{
+	letter-spacing: 15px;
+}
+
+a#linkeleven:hover h2{
+	letter-spacing: 20px;
+}
+
+#fourteen {
+	top: 2300px;
+}
+
+#fifteen {
+	top: 2500px;
+	right: 0px;
+}
+
+a.link {
+	color: blue;
+}
+
+a:visited {
+	color: grey;
+}
+
+a:hover {
+	color: white;
+}
+
+a:active {
+	color: magenta;
+}
+
+a>div {
+	display: none;
+}
+
+a:hover>div {
+	display: block;
+}
+
+#linksix:hover {
+	color: yellow;
+	background-color: yellow;
+}
+
+/* this is not working and i dont fricken know why. mad.
+.link {
+	animation-name: wobble;
+	animation-delay: 5s;
+}
+
+@keyframes wobble {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+*/

@@ -1,0 +1,33 @@
+div {
+  color: grey;
+  padding-left: 15px;
+}
+
+.question {
+  color: pink;
+  padding-left: 0px;
+}
+
+p {
+  color: gray;
+}
+
+#most-special-paragraph {
+  color: red;
+}
+
+.special-paragraph {
+  color: blue;
+  background: pink;
+  border: 1px solid red;
+  margin: 10px;
+  padding: 5px;
+  font-family: monospace;
+  font-size: 24px;
+}
+
+.question-container {
+	border-style: double;
+	border-radius: 25px;
+	border-color: magenta yellow cyan yellow;
+

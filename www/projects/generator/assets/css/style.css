@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url("polezoom.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+canvas {
+  display: block;
+  padding: 50px 0px 100px 700px;
+}
+

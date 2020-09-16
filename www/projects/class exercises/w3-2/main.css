@@ -1,0 +1,14 @@
+.container {
+	display: flex;
+	justify-content: center;
+	padding:10px;
+	background-color: seagreen;
+	min-height: 200px;
+}
+
+.container div {
+	margin: 10px 10px;
+	width: 100px;
+	height: 100px;
+	background-color: bisque;
+}

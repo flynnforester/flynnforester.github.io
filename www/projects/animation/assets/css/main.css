@@ -1,0 +1,51 @@
+body {
+  background-color: pink;
+  font-family: arial;
+  color: red;
+  font-size: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/*animation: [animation-name] [animation-duration] [animation-timing-function]
+[animation-delay];*/
+path {
+  animation: heartbeat 7s infinite
+}
+
+g {
+  fill: red;
+}
+
+@keyframes heartbeat {
+  0%
+  {
+    transform: scale(.75);
+  }
+  20%
+  {
+    transform: scale(1);
+  }
+  40%
+  {
+    transform: scale(.75);
+  }
+  60%
+  {
+    transform: scale(1);
+  }
+  80%
+  {
+    transform: scale(.75);
+  }
+  100%
+  {
+    transform: scale(.75);
+  }
+}

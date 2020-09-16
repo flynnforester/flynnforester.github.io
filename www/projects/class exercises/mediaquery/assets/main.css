@@ -1,0 +1,33 @@
+/* The body's font-size is smaller by default (made for moblie)*/
+body {
+  font-size: 16px;
+}
+
+
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+  body {
+    font-size: 50px;
+  }
+}
+
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+  body {
+    font-size: 60px;
+  }
+}
+
+
+/* Wide screen breakpoint */
+@media (min-width: 1200px) {
+  body {
+    font-size: 70px;
+  }
+}
+
+/*Viewport width ratio*/
+.item {
+  font-size: 10vw;
+}

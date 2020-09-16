@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Missing Dog! Please Help!</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="icon" type="image/png" href="assets/imgs/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"
+  >
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+  <script src="assets/myscripts.js"></script>
+
+</head>
+<body>
+	
+	<!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <img src="assets/imgs/poster01.jpg" alt="Dog01" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/imgs/poster02.jpg" alt="Dog02" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/imgs/poster03.jpg" alt="Dog03" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/imgs/poster04.jpg" alt="Dog04" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/imgs/poster05.jpg" alt="Dog05" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="assets/imgs/poster06.jpg" alt="Dog06" onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="height:900px">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+<div class="bio">
+<p>"Lost Dog" is a poster generator and series exploring the public platform of telephone poles. The different flyers one can find on a telephone pole are limitless so I wanted to explore a small variety of those posters with this project. I plan on expanding on this research in future projects.</p>
+</div>
+<a href="../generator/index.html">Lost dog? Get your own poster here</a>
+</body>
+</html>
