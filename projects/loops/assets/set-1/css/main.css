@@ -1,0 +1,70 @@
+body {
+	color: white;
+	font-family: 'Poiret One', cursive;
+	font-size: 25px;
+	background-color: black;
+}
+
+.header {
+	font-size: 65px;
+	font-weight: bold;
+	margin: 10px 0px;
+}
+
+h2 {
+	text-align: left;
+}
+
+h1 {
+	margin: 10px 0px;
+	font-size: 65px;
+}
+
+.number {
+	display: flex;
+	
+}
+
+.number div {
+	margin: 10px 10px;
+	font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: red;
+}
+
+a:visited .number {
+  color: red;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:active {
+	color: red;
+}
+
+img {
+	max-width: 100%;
+	max-height: 1000px;
+
+}
+
+.image {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-top: -160px;
+	padding: 20px;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+}
+
