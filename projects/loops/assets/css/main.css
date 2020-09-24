@@ -12,10 +12,13 @@ h2 {
 h1 {
 	margin: 10px 0px;
 	font-size: 65px;
+    text-align: center;
 }
 
 .number {
 	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 	
 }
 
