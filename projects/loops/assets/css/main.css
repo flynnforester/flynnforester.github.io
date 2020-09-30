@@ -1,3 +1,7 @@
+* {
+    cursor: url(../customcursor.png), auto;
+}
+
 body {
 	color: white;
 	font-family: 'Poiret One', cursive;

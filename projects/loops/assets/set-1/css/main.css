@@ -1,3 +1,7 @@
+* {
+    cursor: url(../../customcursor.png), auto;
+}
+
 body {
 	color: white;
 	font-family: 'Poiret One', cursive;
@@ -42,10 +46,6 @@ a:visited {
   color: red;
 }
 
-a:visited .number {
-  color: red;
-}
-
 a:hover {
   color: grey;
 }
@@ -57,14 +57,49 @@ a:active {
 img {
 	max-width: 100%;
 	max-height: 600px;
-
 }
 
 .image {
     display: flex;
     justify-content: center;
     align-content: center;
-	margin-top: 0px;
-	padding: 20px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 100%;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 90%;
+  transition: .5s ease;
+  opacity:0;
+  color: darkgrey;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	
+}
