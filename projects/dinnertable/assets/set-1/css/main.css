@@ -52,21 +52,18 @@ a:active {
 	color: black;
 }
 
-img {
-    margin-top: 135px;
-	max-width: 600px;
-	max-height: 600px;
-    margin-left: 10px;
-}
-
 .image {
     display: flex;
     justify-content: center;
     align-content: center;
+    margin-top: 125px;
+	max-width: 600px;
+	max-height: 700px;
+    margin-left: 10px;
 }
 
 .elizabeth {
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .container {
