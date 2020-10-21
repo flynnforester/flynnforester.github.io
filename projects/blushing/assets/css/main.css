@@ -1,0 +1,81 @@
+* {
+    cursor: url(../imgs/heartcursor.png), auto;
+}
+
+body{
+    background-image: url("../imgs/background.jpg");
+    font-family: 'Sansita Swashed';
+    padding:20px;
+}
+
+.text {
+    color: hotpink;
+    border: 40px solid cyan;
+    border-radius: 80px;
+    background-color: floralwhite;
+    max-height: 1170px;
+    text-align: center;
+}
+
+@keyframes header {
+     from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+h1 {
+    font-size: 60px;
+    margin:10px 20px;
+    font-weight: 100;
+    animation-name: header;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    
+}
+
+@keyframes text {
+    from {letter-spacing: 0px;}
+    to {letter-spacing: 10px;}
+}
+
+p {
+    font-family: 'Sansita Swashed';
+    font-size: 20px;
+    padding:15px 25px;
+    line-height: 1.3;
+    animation: text .5s ease-in-out 0s 2 alternate;
+
+}
+
+.credits {
+    color: hotpink;
+    border: 5px outset cyan;
+    border-radius: 100px; 
+    max-width: 180px;
+    margin: 20px;
+    background-color: floralwhite;
+    line-height: 1.5;
+    
+}
+
+p::selection {
+    cursor: grab;
+}
+
+a:link {
+    
+}
+
+a:visited {
+    
+}
+
+a:active {
+    
+}
+
+.credits:hover {
+    color: floralwhite;
+    border: 5px inset cyan;
+    background-color: hotpink;
+}
+
