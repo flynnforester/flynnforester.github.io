@@ -1,0 +1,163 @@
+/* body::-webkit-scrollbar {
+    display: none;
+}
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: auto;
+    height: 3000px;
+    background-image: url(../imgs/background.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    font-family: cholla-unicase, sans-serif;
+    font-weight: 400;
+}
+
+
+.title {
+    display: block;
+    margin: 30px auto auto auto;
+}
+.frontpage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navigation {
+    margin-top: 90px;
+    color: #F2EDE4;
+}
+ul, ol, p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    font-family: cholla-unicase, sans-serif;
+    font-weight: 400;
+    font-size: 36px; 
+}
+ul {
+    list-style: none; /* url(../imgs/computer.png) */
+}
+.gif {
+    margin-top: 100px;
+    margin-right: 200px;
+    width: 500px;
+    height: auto;
+}
+
+
+.chart {
+    display: block;
+    margin: 100px auto 50px auto;
+}
+h1, h2 {
+    font-family: cholla-unicase, sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+    text-align: center;
+    margin-top: 30px;
+}
+h1 {
+    color: #333333;
+}
+.buying {
+    width: 1400px; 
+    margin-left: 170px;
+    display: flex;
+    justify-content: space-around;
+}
+.list2{
+    margin-left: 500px;
+}
+.tooltip-wrap {
+  position: relative;
+}
+.tooltip-wrap .tooltip-content {
+  display: none;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background-color: #008F95;
+  color: #F2EDE4;
+}
+.tooltip-wrap:hover .tooltip-content {
+  display: block;
+}
+.tooltip-content {
+    width: 550px;
+    height: 35px;
+    margin-left: 230px;
+    margin-bottom: 0px;
+}
+p {
+    margin-top: 0px;
+    text-align: center;
+    width: auto;
+    color: #333333;
+}
+.micro {
+    height: 70px;
+}
+
+
+h2 {
+    color: #F2EDE4;
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+.table{
+    width: 750px;
+    margin-top: 300px;
+}
+.stepstep {
+    display: flex;
+    flex-direction: row;
+    color: #333333;
+}
+
+iframe {
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+.congrats {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 170px;
+    margin-bottom: 50px;
+}
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: #333333;
+}
+
+a:link {
+    color: #F2EDE4;
+    text-decoration-line: none;
+}
+
+a:visited {
+    color: #F2EDE4;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: lightcoral;
+    text-decoration-line: none;
+}
+
+a:active {
+   
+    text-decoration-line: none;
+}
+.list1:hover .list2:hover{
+    color: #008F95;
+}
