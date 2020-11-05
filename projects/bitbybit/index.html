@@ -11,35 +11,34 @@
 
 </head>
 
-<body>
+<body div="container">
     <img src="assets/imgs/title.png" alt="'Bit By Bit'" class="title">
-<div class="frontpage">
-  <div class="navigation">
-   <ul>
-    <li><a href="#pbcb">PRE-BUILT VS. CUSTOM BUILT</a></li>
-    <li><a href="#wtb">WHERE TO BUY</a></li>
-    <li><a href="#pit">PUTTING IT TOGETHER</a></li>
-   <ul>
-    <li>      <a href="#sw">work station</a></li>
-    <li>      <a href="#s1">step 1 - cpu</a></li>
-    <li>      <a href="#s2">step 2 - ram</a></li>
-    <li>      <a href="#s3">step 3 - cpu cooling</a></li>
-    <li>      <a href="#s4">step 4 - case</a></li>
-    <li>      <a href="#s5">step 5 - fans</a></li>
-    <li>      <a href="#s6">step 6 - motherboard</a></li>
-    <li>      <a href="#s7">step 7 - hdd and ssd</a></li>
-    <li>      <a href="#s8">step 8 - power supply</a></li>
-    <li>      <a href="#s9">step 9 - graphics card</a></li>
-   </ul>
-    <li><a href="#bu">BOOTING UP</a></li>
-   </ul>    
-  </div>
- <div>
-    <img src="assets/imgs/bluebackground.gif" alt="'Lets Build A PC'" class="gif">
- </div>
-</div>
+    <div class="frontpage">
+        <div class="navigation">
+            <ul>
+                <li><a href="#pbcb">PRE-BUILT VS. CUSTOM BUILT</a></li>
+                <li><a href="#wtb">WHERE TO BUY</a></li>
+                <li><a href="#pit">PUTTING IT TOGETHER</a></li>
+                <ul>
+                    <li>      <a href="#sw">work station</a></li>
+                    <li>      <a href="#s1">step 1 - cpu</a></li>
+                    <li>      <a href="#s2">step 2 - ram</a></li>
+                    <li>      <a href="#s3">step 3 - cpu cooling</a></li>
+                    <li>      <a href="#s4">step 4 - case</a></li>
+                    <li>      <a href="#s5">step 5 - motherboard</a></li>
+                    <li>      <a href="#s6">step 6 - hdd and ssd</a></li>
+                    <li>      <a href="#s7">step 7 - power supply</a></li>
+                    <li>      <a href="#s8">step 8 - graphics card</a></li>
+                </ul>
+                <li><a href="#bu">BOOTING UP</a></li>
+            </ul>    
+        </div>
+        <div>
+            <img src="assets/imgs/bluebackground.gif" alt="'Lets Build A PC'" class="gif">
+        </div>
+    </div>
     
-<div  id="pbcb" class="compare">
+    <div  id="pbcb" class="compare child">
     <img src="assets/imgs/chart.png" alt="DIY vs PreBuilt PC" class="chart">
     
     
@@ -102,7 +101,7 @@
     
     <div id="pit" class="stepsss">
     
-    <div id="sw" class="step">   
+    <div id="sw" class="step child">   
         <h2 >WORK STATION</h2>  
         <div class="stepstep">
             <img src="assets/imgs/table.png" alt="table" class="table">
@@ -111,7 +110,7 @@
                     <ul>
                         <li>A clutter free table</li>
                         <li>An anti static surface</li>
-                        <li>Tools: screwdriver, box cutter, needle nose pliers, thermal compound, cable ties</li>
+                        <li>Tools: screwdriver, box cutter, thermal compound, cable ties</li>
                         <li>Optional Items: container for screws, side cutters, anti-static strap</li>
                     </ul>
                 <li>Setting up an Anti Static Work Station</li>
@@ -124,10 +123,10 @@
         </div>
     </div>
     
-    <div id="s1" class="step">  
+    <div id="s1" class="step child">  
         <h2>STEP 1</h2>  
         <div class="stepstep">
-            <img src="assets/imgs/table.png" alt="table" class="table">
+            <img src="assets/imgs/parts/MOTHERBOARD.png" alt="motherboard" class=" mb">
             <ol>
                 <li>Grab the motherboard and put the IO shield to the side.</li>
                 <li>Use the motherboard box as a work station and take the CPU out of it's box.</li>
@@ -139,10 +138,14 @@
         </div>
     </div>
         
-    <div id="s2" class="step">  
+    <div id="s2" class="step child">  
         <h2>STEP 2</h2>  
-        <div class="stepstep">
-            <img src="assets/imgs/table.png" alt="table" class="table">
+        <div class="stepstep ram2">
+            <div class="ramsticks">
+                <img src="assets/imgs/parts/RAM.png" alt="ram" class="ram">
+                <img src="assets/imgs/parts/RAM.png" alt="ram" class="ram">
+                <img src="assets/imgs/parts/M2SSD.png" alt="m2ssd" class="ram">
+            </div>
             <ol>
                 <li>Next we have the RAM. Get both sticks out of their packing.</li>
                 <li>Find the RAM slots on the top right of the motherboard. You'll want to leave an empty slot between each stick of RAM.</li>
@@ -158,10 +161,10 @@
         </div>
     </div>
         
-    <div id="s3" class="step">  
+    <div id="s3" class="step child">  
         <h2>STEP 3</h2>  
         <div class="stepstep">
-            <img src="assets/imgs/table.png" alt="table" class="table">
+            <img src="assets/imgs/parts/CPUCOOLER.png" alt="cooler" class="cool">
             <ol>
                 <li>Now for the CPU cooler. Installation for this item will vary depending on the model, but the basic instructions are the same.</li>
                 <li>Unscrew the brackets from the front and get the backplate for the cooler from the box.</li>
@@ -172,78 +175,99 @@
         </div>
     </div>
         
-    <div id="s4" class="step">  
+    <div id="s4" class="step child">  
         <h2>STEP 4</h2>  
         <div class="stepstep">
-            <img src="assets/imgs/table.png" alt="table" class="table">
+            <img src="assets/imgs/parts/CASEINSIDE.png" alt="insidecase" class="inside">
             <ol>
-                <li>Pellentesque placerat vel lorem id eleifend. Nullam purus dui, pharetra at arcu a, dignissim semper lorem. Phasellus pellentesque urna rutrum lectus hendrerit interdum. Mauris efficitur vitae lectus vel tincidunt. Vivamus ornare efficitur feugiat. Duis tempus lectus libero, vel commodo urna laoreet et. Proin volutpat dignissim metus ac dignissim. Vivamus eu tortor elit. Nulla in nisl bibendum, sodales sapien eu, </li>
-                <li>Pellentesque placerat vel lorem id eleifend. Nullam purus dui, pharetra at arcu a, dignissim semper lorem. Phasellus pellentesque urna rutrum lectus hendrerit interdum. Mauris efficitur vitae lectus vel tincidunt. Vivamus ornare efficitur feugiat. Duis tempus lectus libero, vel commodo urna laoreet et. Proin volutpat dignissim metus ac dignissim. Vivamus eu tortor elit. Nulla in nisl bibendum, sodales sapien eu, </li>
+                <li>Next we'll be putting the motherboard into the case. Put the motherboard to the side and take out the case. Remove the front and back panels.</li>
+                <li>Make a plan for airflow configuration. You'll want to have at least 3 fans. Some cases come with an extra fan or two, but you'll most likely want to buy some extra as these aren't always the best quality.</li>
+                <li>While taking the screws out of the case you'll want to keep them separated and labeled.</li>
+                <li>Install any fans and reroute any cables to get ready to install the motherboard. You'll want to route the wires according to where they plug in on the motherboard.</li>
             </ol>
         </div>
     </div>
         
-    <div id="s5" class="step">  
+    <div id="s5" class="step child">  
         <h2>STEP 5</h2>  
         <div class="stepstep">
-            <img src="assets/imgs/table.png" alt="table" class="table">
+            <img src="assets/imgs/parts/CASEINSIDE.png" alt="case" class="inside ">
+            <img src="assets/imgs/parts/MOTHERBOARD.png" alt="motherboard" class="mb">
             <ol>
-                <li>Pellentesque placerat vel lorem id eleifend. Nullam purus dui, pharetra at arcu a, dignissim semper lorem. Phasellus pellentesque urna rutrum lectus hendrerit interdum. Mauris efficitur vitae lectus vel tincidunt. Vivamus ornare efficitur feugiat. Duis tempus lectus libero, vel commodo urna laoreet et. Proin volutpat dignissim metus ac dignissim. Vivamus eu tortor elit. Nulla in nisl bibendum, sodales sapien eu, </li>
-                <li>Pellentesque placerat vel lorem id eleifend. Nullam purus dui, pharetra at arcu a, dignissim semper lorem. Phasellus pellentesque urna rutrum lectus hendrerit interdum. Mauris efficitur vitae lectus vel tincidunt. Vivamus ornare efficitur feugiat. Duis tempus lectus libero, vel commodo urna laoreet et. Proin volutpat dignissim metus ac dignissim. Vivamus eu tortor elit. Nulla in nisl bibendum, sodales sapien eu, </li>
+                <li>Grab the IO shield. You'll want to check the inside of it to make sure the tabs on the top of each hole are bent up enough to allow the port through.</li>
+                <li>Check the orientation of the IO shield up against the motherboard and install into case by pushing on each corner of the shield to lock it into place.</li>
+                <li>Check your case instructions for installing any standoffs for the motherboard.</li>
+                <li>Double check the standoffs and IO shield by picking up the motherboard by the CPU cooler and placing it into the case at a slight angle.</li>
+                <li>Screw in the motherboard. Be careful not to over tighten the screws.</li>
+                <li>Now you can plug in all the cables you routed earlier such as the fans, RGBs, CPU cooler, USB connectors, and control panel pins.</li>
             </ol>
         </div>
     </div>
         
-    <div id="s6" class="step">  
+    <div id="s6" class="step child">  
         <h2>STEP 6</h2>  
         <div class="stepstep">
-            <img src="assets/imgs/table.png" alt="table" class="table">
+            <img src="assets/imgs/parts/SSD.png" alt="ssd" class="ssd">
+            <img src="assets/imgs/parts/CASEINSIDE.png" alt="caseinside" class="inside">
             <ol>
-                <li>Pellentesque placerat vel lorem id eleifend. Nullam purus dui, pharetra at arcu a, dignissim semper lorem. Phasellus pellentesque urna rutrum lectus hendrerit interdum. Mauris efficitur vitae lectus vel tincidunt. Vivamus ornare efficitur feugiat. Duis tempus lectus libero, vel commodo urna laoreet et. Proin volutpat dignissim metus ac dignissim. Vivamus eu tortor elit. Nulla in nisl bibendum, sodales sapien eu, </li>
-                <li>Pellentesque placerat vel lorem id eleifend. Nullam purus dui, pharetra at arcu a, dignissim semper lorem. Phasellus pellentesque urna rutrum lectus hendrerit interdum. Mauris efficitur vitae lectus vel tincidunt. Vivamus ornare efficitur feugiat. Duis tempus lectus libero, vel commodo urna laoreet et. Proin volutpat dignissim metus ac dignissim. Vivamus eu tortor elit. Nulla in nisl bibendum, sodales sapien eu, </li>
+                <li>Each harddrive and SSD mounting mechanism is different for each case, so be sure to check your instructions for this step.</li>
+                <li>For this case the harddrive gets mounted to the back, and the SSD gets mounted to the inside on the right of the motherboard.</li>
+                <li>Grab a seta cable from the motherboard box. It will be in the shape of an L. The leg of the L goes down when going into the drive.</li>
+                <li>Plug into the drive and then into the motherboard.</li>
             </ol>
         </div>
     </div>
         
-    <div id="s7" class="step">  
+    <div id="s7" class="step child">  
         <h2>STEP 7</h2>  
         <div class="stepstep">
-            <img src="assets/imgs/table.png" alt="table" class="table">
+            <div class="ramsticks">
+            <img src="assets/imgs/parts/PSU2.png" alt="ps2" class="psu2 ram">
+            <img src="assets/imgs/parts/PSU.png" alt="ps2" class="psu ram">
+            <img src="assets/imgs/parts/PSU-3.png" alt="ps2" class="psu3 ram">
+            </div>
             <ol>
-                <li>Pellentesque placerat vel lorem id eleifend. Nullam purus dui, pharetra at arcu a, dignissim semper lorem. Phasellus pellentesque urna rutrum lectus hendrerit interdum. Mauris efficitur vitae lectus vel tincidunt. Vivamus ornare efficitur feugiat. Duis tempus lectus libero, vel commodo urna laoreet et. Proin volutpat dignissim metus ac dignissim. Vivamus eu tortor elit. Nulla in nisl bibendum, sodales sapien eu, </li>
-                <li>Pellentesque placerat vel lorem id eleifend. Nullam purus dui, pharetra at arcu a, dignissim semper lorem. Phasellus pellentesque urna rutrum lectus hendrerit interdum. Mauris efficitur vitae lectus vel tincidunt. Vivamus ornare efficitur feugiat. Duis tempus lectus libero, vel commodo urna laoreet et. Proin volutpat dignissim metus ac dignissim. Vivamus eu tortor elit. Nulla in nisl bibendum, sodales sapien eu, </li>
+                <li>Once again, installation of power supply units varies from case to case so check your specific case instructions for details.</li>
+                <li>For this case its just four screws on the side. Unplug the power supply unit from the wall and place into the case.</li>
+                <li>Determine if the fan of the power supply unit should be facing up or down, depending on the amount of space below your case and airflow pattern.</li>
+                <li>Screw in power supply unit. Grab the cables from the box and begin plugging them into the components. You'll want to wait to plug them into the power supply until after you've done some cable management</li>
+                    <ol>
+                        <li>Starting with the 24-pin on the right of the motherboard, you'll want to brace the motherboard from behind as you push this cable in until you hear a click.</li>
+                        <li>Next is the 8-pin EPS connector,labeled CPU, this will be split into 2 groups of 4 unlike the PCI express connector which is 6 and 2. This goes on the top left of the motherboard.</li>
+                        <li>The PCI express cable is going to depend on your graphics card. You'll want to check the number of pins on the graphics card and match it up with a cable that works. We'll plug this into the power supply first and the graphics card later.</li>
+                        <li>The harddrive cables come next, plug them into the drives and any RGB. Be delicate with plugging anything into the drives as they are delicate.</li>
+                    </ol>
+                <li>Time to do some cable management. Take your time routing the cables as you need to be able to close the side panels and it will help with airflow.</li>
+                <li>Now you'll want to connect all the cables to the power supply.</li>
             </ol>
         </div>
     </div>
         
-    <div id="s8" class="step">  
+    <div id="s8" class="step child">  
         <h2>STEP 8</h2>  
         <div class="stepstep">
-            <img src="assets/imgs/table.png" alt="table" class="table">
+            <div class="ramsticks">
+            <img src="assets/imgs/parts/GRAPHICS.png" alt="graphics" class="graphics">
+            <img src="assets/imgs/parts/CASEINSIDE.png" alt="inside" class="inside">
+            </div>
             <ol>
-                <li>Pellentesque placerat vel lorem id eleifend. Nullam purus dui, pharetra at arcu a, dignissim semper lorem. Phasellus pellentesque urna rutrum lectus hendrerit interdum. Mauris efficitur vitae lectus vel tincidunt. Vivamus ornare efficitur feugiat. Duis tempus lectus libero, vel commodo urna laoreet et. Proin volutpat dignissim metus ac dignissim. Vivamus eu tortor elit. Nulla in nisl bibendum, sodales sapien eu, </li>
-                <li>Pellentesque placerat vel lorem id eleifend. Nullam purus dui, pharetra at arcu a, dignissim semper lorem. Phasellus pellentesque urna rutrum lectus hendrerit interdum. Mauris efficitur vitae lectus vel tincidunt. Vivamus ornare efficitur feugiat. Duis tempus lectus libero, vel commodo urna laoreet et. Proin volutpat dignissim metus ac dignissim. Vivamus eu tortor elit. Nulla in nisl bibendum, sodales sapien eu, </li>
-            </ol>
-        </div>
-    </div>
-        
-    <div id="s9" class="step">  
-        <h2>STEP 9</h2>  
-        <div class="stepstep">
-            <img src="assets/imgs/table.png" alt="table" class="table">
-            <ol>
-                <li>Pellentesque placerat vel lorem id eleifend. Nullam purus dui, pharetra at arcu a, dignissim semper lorem. Phasellus pellentesque urna rutrum lectus hendrerit interdum. Mauris efficitur vitae lectus vel tincidunt. Vivamus ornare efficitur feugiat. Duis tempus lectus libero, vel commodo urna laoreet et. Proin volutpat dignissim metus ac dignissim. Vivamus eu tortor elit. Nulla in nisl bibendum, sodales sapien eu, </li>
-                <li>Pellentesque placerat vel lorem id eleifend. Nullam purus dui, pharetra at arcu a, dignissim semper lorem. Phasellus pellentesque urna rutrum lectus hendrerit interdum. Mauris efficitur vitae lectus vel tincidunt. Vivamus ornare efficitur feugiat. Duis tempus lectus libero, vel commodo urna laoreet et. Proin volutpat dignissim metus ac dignissim. Vivamus eu tortor elit. Nulla in nisl bibendum, sodales sapien eu, </li>
+                <li>We are finally at the graphics card. Remove any slot covers your case has that would be in the way of your graphics card. There is no need to remove all of them, just the one or two that are needed.</li>
+                <li>Grab the graphics card and line it up to the slots on the case and the slot on the motherboard slot below the CPU, make sure the notch to the left of the slot is in the right spot on the GPU.</li>
+                <li>Push the tab on the right back and push the graphics card in with even pressure until there is a click.</li>
+                <li>Screw the graphics card into the case.</li>
+                <li>Grab the PCI express cable and plug it into the graphics card.</li>
+                <br>
+                <li>Now you can put any panels back (aside from the front) and plug in the power supply unit, a keyboard, mouse, and monitor! </li>
             </ol>
         </div>
     </div>
     
-    <div id="bu" class="step">  
+    <div id="bu" class="step child">  
         <h2>BOOTING UP</h2>  
         <div class="stepstep">
-            <iframe width="1100" height="600" src="https://www.youtube.com/embed/RYYoCXh2gtw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="1200" height="700" src="https://www.youtube.com/embed/RYYoCXh2gtw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>
-            TEXT TEXT TEXT
+            Its time for the moment of truth. Time to boot up and install Windows with some help from JayzTwoCents who covers all the details of starting up a brand new computer and installing an operating system.
             </p>
         </div>
         <img src="assets/imgs/congratulations2.png" alt="CONGRATULATIONS" class="congrats">

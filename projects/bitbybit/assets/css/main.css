@@ -1,7 +1,14 @@
-/* body::-webkit-scrollbar {
+body::-webkit-scrollbar {
     display: none;
 }
-*/
+
+.container {
+  scroll-snap-type: y mandatory;
+}
+
+.child {
+  scroll-snap-align: start;
+}
 
 html {
     scroll-behavior: smooth;
@@ -47,6 +54,12 @@ ul {
     margin-right: 200px;
     width: 500px;
     height: auto;
+}
+
+ol {
+    width: 750px;
+    margin-right: 40px;
+    
 }
 
 
@@ -96,8 +109,8 @@ h1 {
 }
 p {
     margin-top: 0px;
-    text-align: center;
-    width: auto;
+    width: 550px;
+    text-align: left;
     color: #333333;
 }
 .micro {
@@ -110,14 +123,47 @@ h2 {
     margin-top: 100px;
     margin-bottom: 90px;
 }
+
+
+
 .table{
     width: 750px;
     margin-top: 300px;
 }
+.mb {
+    width: 600px;
+    margin-top: -30px;
+    margin-left: 30px;
+}
+.ram {
+    width: 600px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.cool {
+    max-width: 600px;
+    margin-left: 160px;
+}
+.inside {
+    max-width: 600px;
+    margin-left: 160px;
+}
+.ssd {
+    max-width: 332px;
+    max-height: 468;
+}
+
+
 .stepstep {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     color: #333333;
+}
+
+.ram2 {
+    margin-bottom: 250px;
 }
 
 iframe {
@@ -137,6 +183,10 @@ h3 {
     font-size: 30px;
     margin-bottom: 0px;
     color: #333333;
+}
+
+.s7 {
+    width: 300px;
 }
 
 a:link {
@@ -161,3 +211,6 @@ a:active {
 .list1:hover .list2:hover{
     color: #008F95;
 }
+
+
+!!!!!!!!!!!!HOVERS FOR THE STEPS TO CIRCLE THINGS!!!!!!!!!!!!!!!!!!!
