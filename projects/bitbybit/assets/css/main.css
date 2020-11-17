@@ -34,12 +34,21 @@ ul, ol, p{
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 15px;
-    font-family: cholla-unicase, sans-serif;
+    
     font-weight: 400;
     font-size: 36px; 
 }
 ul {
     list-style: none; /* url(../imgs/computer.png) */
+    font-family: cholla-unicase, sans-serif;
+}
+p{
+font-family: 'Source Code Pro', monospace;
+    font-size: 23px;
+}
+ol {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 23px;
 }
 .gif {
     margin-top: 100px;
@@ -148,22 +157,38 @@ h2 {
     margin-bottom: 90px;
 }
 
+.stepstep {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #333333;
+    align-self: flex-start;
+}
 
 
 .table{
     width: 750px;
     margin-top: 300px;
+    opacity: 0;
+    transition: 1s;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 .mb {
     width: 600px;
     margin-top: -30px;
     margin-left: 30px;
+        position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
 }
 .ram {
     width: 600px;
     margin: 15px;
     display: flex;
     flex-direction: column;
+    align-self: flex-start;
 }
 .cool {
     max-width: 600px;
@@ -179,12 +204,7 @@ h2 {
 }
 
 
-.stepstep {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: #333333;
-}
+
 
 .ram2 {
     margin-bottom: 250px;
@@ -259,7 +279,7 @@ a:active {
 
 /*this is the animation that is added*/
 .show {
-    transform: translateX(0px);
+    transform: translateX(200px);
     opacity: 1;
 }
 
