@@ -155,6 +155,7 @@ h2 {
     color: #F2EDE4;
     margin-top: 100px;
     margin-bottom: 90px;
+    z-index: 3;
 }
 
 .stepstep {
@@ -171,38 +172,96 @@ h2 {
     margin-top: 300px;
     opacity: 0;
     transition: 1s;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+}
+.cpu {
+    width: 200px;
+    height: 140px;
+    margin-left: -880px;
+    margin-top: 60px;
+    opacity: 0;
+    transition: 1s opacity, 1s transform;
 }
 .mb {
     width: 600px;
-    margin-top: -30px;
-    margin-left: 30px;
-        position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
+    margin-top: -200px;
+    margin-left: -150px;
+    opacity: 0;
+    transition: 1s opacity, 1s transform;
+    z-index: -1;  
 }
-.ram {
-    width: 600px;
-    margin: 15px;
+.rams {
+    width: 130px;
+    margin-top: -160px;
+    margin-left: 360px;
     display: flex;
     flex-direction: column;
-    align-self: flex-start;
+    opacity: 0;
+    transition: 1s opacity, 1s transform;
+    z-index: -1;
 }
 .cool {
-    max-width: 600px;
-    margin-left: 160px;
+    max-width: 400px;
+    height: 300px;
+    margin-top: -180px;
+    margin-left: 90px;
+    z-index: 1;
+    opacity: 0;
+    transition: 1s opacity, 1s transform;
 }
 .inside {
-    max-width: 600px;
-    margin-left: 160px;
+    max-width: 800px;
+    margin-left: -150px;
+    margin-top: -70px;
+    z-index: 1;
+    opacity: 0;
+    transition: 1s opacity, 1s transform;
+}
+.inside2 {
+    max-width: 800px;
+    margin-left: -170px;
+    margin-top: -220px;
+    z-index: 1;
+    opacity: 0;
+    transition: 1s opacity, 1s transform;
+}
+.mbt {
+    max-width: 425px;
+    margin-left: -1300px;
+    margin-top: -50px;
+    z-index: 2;
+    opacity: 0;
+    transition: 1s opacity, 1s transform;
 }
 .ssd {
-    max-width: 332px;
-    max-height: 468;
+    width: 475px;
+    margin-left: -200px;
+    z-index: 1;
+    opacity: 0;
+    transition: 1s opacity, 1s transform;
 }
-
+.hdd {
+    width: 475px;
+    margin-left: -150px;
+    z-index: 1;
+    opacity: 0;
+    transition: 1s opacity, 1s transform;
+}
+.psu {
+    width: 700px;
+    margin-left: -100px;
+    margin-top: 370px;
+    z-index: 3;
+    opacity: 0;
+    transition: 1s opacity, 1s transform;
+}
+.graphics {
+    width: 600px;
+    margin-left: -150px;
+    margin-top: 300px;
+    z-index: 3;
+    opacity: 0;
+    transition: 1s opacity, 1s transform;
+}
 
 
 
@@ -214,6 +273,7 @@ iframe {
     margin-bottom: 20px;
     margin-left: 50px;
     margin-top: -30px;
+    z-index: 100;
 }
 .congrats {
     display: block;
@@ -283,4 +343,3 @@ a:active {
     opacity: 1;
 }
 
-!!!!!!!!!!!!HOVERS FOR THE STEPS TO CIRCLE THINGS!!!!!!!!!!!!!!!!!!!
