@@ -40,7 +40,7 @@
             </ul>    
         </div>
         <div>
-            <img src="assets/imgs/gif01.gif" alt="'Lets Build A PC'" class="gif">
+            <img src="assets/imgs/gif01.gif" alt="'Lets Build A PC'" class="gif01">
         </div>
     </div>
     
@@ -130,11 +130,11 @@
     </div>
     
     <div id="s1" class="step">  
-        <h2>STEP 1 - CPU</h2>  
+        <h2 id="s1tit">STEP 1 - CPU</h2>  
         <div class="stepstep inner">
             <img id="mb" class="mb" src="assets/imgs/parts/MOTHERBOARD.png" alt="motherboard" >
             <img id="cpu" class="cpu" src="assets/imgs/parts/CPU.png" alt="cpu" >
-            <ol>
+            <ol id="cpustep">
                 <li>Grab the motherboard and put the IO shield to the side.</li>
                 <li>Use the motherboard box as a work station and take the CPU out of it's box.</li>
                 <li>Push down the lever on the CPU holder, pull out, and push up to move the retention plate out of the way.</li>
@@ -151,7 +151,7 @@
             <div class="ramsticks">
                 <img src="assets/imgs/parts/RAM.png" alt="ram" id="rams" class="rams">
             </div>
-            <ol>
+            <ol id="ramstep">
                 <li>Next we have the RAM. Get both sticks out of their packaging.</li>
                 <li>Find the RAM slots on the top right of the motherboard. If you have 4 slots then you'll want to leave an empty slot between each stick of RAM.</li>
                 <li>Push back one of the levers on the end of the RAM slots and line up the notch on the bottom of the stick with the notch in the slot.</li>
@@ -171,7 +171,7 @@
         <h2>STEP 3 - CPU COOLING</h2>  
         <div class="stepstep">
             <img src="assets/imgs/parts/CPUCOOLER.png" alt="cooler" id="cool" class="cool">
-            <ol>
+            <ol id="coolstep">
                 <li>Now for the CPU cooler. Installation for this item will vary depending on the model, but the basic instructions are the same.</li>
                 <li>Unscrew the brackets from the front and get the backplate for the cooler from the box.</li>
                 <li>Turn the motherboard over and place the backplate on. When handling the motherboard, try to only touch the edges or metal components, to avoid getting skin oils on the PCB (Printed Circuit Board).</li>
@@ -185,6 +185,7 @@
         <h2>STEP 4 - CASE</h2>  
         <div class="stepstep">
             <img src="assets/imgs/parts/CASEINSIDE.png" alt="insidecase" class="inside" id="inside">
+            <img src="assets/imgs/parts/AIRFLOW.png" alt="airflow plan - bottom to top - front to back" class="airflow" id="airflow">
             <ol>
                 <li>Next we'll be putting the motherboard into the case. Put the motherboard to the side and take out the case. Remove the front and back panels.</li>
                 <li>Make a plan for airflow configuration. You'll want to have at least 3 fans. Some cases come with an extra fan or two, but you'll most likely want to buy some extra as these aren't always the best quality.</li>
@@ -197,9 +198,8 @@
     <div id="s5" class="step">  
         <h2>STEP 5 - MOTHERBOARD</h2>  
         <div class="stepstep">
-            <img src="assets/imgs/parts/CASEINSIDE.png" alt="case" class="inside2" id="inside2">
             <img src="assets/imgs/parts/MOTHERBOARDTOGETHER.png" alt="mbpicture" class="mbt" id="mbt">
-            <ol>
+            <ol id="mbstep">
                 <li>Grab the IO shield. You'll want to check the inside of it to make sure the tabs on the top of each hole are bent up enough to allow the port through.</li>
                 <li>Check the orientation of the IO shield up against the motherboard and install into case by pushing on each corner of the shield to lock it into place.</li>
                 <li>Check your case instructions for installing any standoffs for the motherboard.</li>
@@ -215,7 +215,7 @@
         <div class="stepstep">
             <img src="assets/imgs/parts/SSD.png" alt="ssd" id="ssd" class="ssd">
             <img src="assets/imgs/parts/HDD.png" alt="hdd" id="hdd" class="hdd">
-            <ol>
+            <ol id="ssdstep">
                 <li>Each harddrive and SSD mounting mechanism is different for each case, so be sure to check your instructions for this step.</li>
                 <li>For this case the harddrive gets mounted to the back, and the SSD gets mounted to the inside on the right of the motherboard.</li>
                 <li>Grab a seta cable from the motherboard box. It will be in the shape of an L. The leg of the L goes down when going into the drive.</li>
@@ -228,6 +228,7 @@
         <h2>STEP 7 - POWER SUPPLY</h2>  
         <div class="stepstep">
             <img src="assets/imgs/parts/PSUCASE.png" alt="power supply unit" id="psu" class="psu">
+            <img src="assets/imgs/parts/CONNECTORS.png" alt="mb connectors" id="connect" class="connect">
             <ol>
                 <li>Once again, installation of power supply units varies from case to case so check your specific case instructions for details.</li>
                 <li>For this case its just four screws on the side. Unplug the power supply unit from the wall and place into the case.</li>
@@ -249,7 +250,7 @@
         <h2>STEP 8 - GRAPHICS CARD</h2>  
         <div class="stepstep">
             <img src="assets/imgs/parts/GRAPHICS.png" alt="graphics" id="graphics" class="graphics">
-            <ol>
+            <ol id="gpustep">
                 <li>We are finally at the graphics card. Remove any slot covers your case has that would be in the way of your graphics card. There is no need to remove all of them, just the one or two that are needed.</li>
                 <li>Grab the graphics card and line it up to the slots on the case and the slot on the motherboard slot below the CPU, make sure the notch to the left of the slot is in the right spot on the GPU.</li>
                 <li>Push the tab on the right back and push the graphics card in with even pressure until there is a click.</li>
@@ -269,10 +270,14 @@
             Its time for the moment of truth. Time to boot up and install Windows with some help from JayzTwoCents who covers all the details of starting up a brand new computer and installing an operating system.
             </p>
         </div>
-        <img src="assets/imgs/congratulations2.png" alt="CONGRATULATIONS" class="congrats">
+        <img src="assets/imgs/CONGRATS.gif" alt="CONGRATULATIONS" class="congrats">
     </div>
     
-    <h3>CREDITS credits CREDITS credits FLYNN FORESTER</h3>
+    <div class="credits">
+        <a href="https://www.youtube.com/user/LinusTechTips">LinusTechTips.com</a>
+        <a href="https://pcpartpicker.com/">PCPartPicker.com</a>
+        <a href="https://flynnforester.github.io/">FLYNN FORESTER</a>
+    </div>
         
 </div>
     

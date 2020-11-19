@@ -25,6 +25,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 200px;
 }
 .navigation {
     margin-top: 90px;
@@ -50,7 +51,7 @@ ol {
     font-family: 'Source Code Pro', monospace;
     font-size: 23px;
 }
-.gif {
+.gif01 {
     margin-top: 100px;
     margin-right: 200px;
     width: 500px;
@@ -133,6 +134,8 @@ h1 {
 
 p {
     margin-top: 0px;
+    margin-right: 50px;
+    margin-bottom: 690px;
     width: 550px;
     text-align: left;
     color: #333333;
@@ -173,25 +176,30 @@ h2 {
     opacity: 0;
     transition: 1s;
 }
+#s1tit {
+    margin-top: 100px;
+}
 .cpu {
-    width: 200px;
-    height: 140px;
-    margin-left: -880px;
-    margin-top: 60px;
+    width: 170px;
+    margin-left: -1055px;
+    margin-top: 110px;
     opacity: 0;
     transition: 1s opacity, 1s transform;
 }
+#cpustep {
+    margin-bottom: 310px;
+}
 .mb {
     width: 600px;
-    margin-top: -200px;
+    margin-top: -150px;
     margin-left: -150px;
     opacity: 0;
     transition: 1s opacity, 1s transform;
     z-index: -1;  
 }
 .rams {
-    width: 130px;
-    margin-top: -160px;
+    width: 190px;
+    margin-top: -110px;
     margin-left: 360px;
     display: flex;
     flex-direction: column;
@@ -199,70 +207,95 @@ h2 {
     transition: 1s opacity, 1s transform;
     z-index: -1;
 }
+#ramstep {
+    margin-bottom: 0px;
+}
 .cool {
-    max-width: 400px;
-    height: 300px;
-    margin-top: -180px;
-    margin-left: 90px;
+    width: 350px;
+    margin-top: -140px;
+    margin-left: 40px;
     z-index: 1;
     opacity: 0;
     transition: 1s opacity, 1s transform;
+}
+#coolstep {
+    margin-bottom: 250px;
 }
 .inside {
-    max-width: 800px;
+    max-width: 700px;
     margin-left: -150px;
-    margin-top: -70px;
+    margin-top: -160px;
     z-index: 1;
     opacity: 0;
     transition: 1s opacity, 1s transform;
 }
-.inside2 {
+.airflow {
     max-width: 800px;
-    margin-left: -170px;
-    margin-top: -220px;
+    margin-left: -1200px;
+    margin-top: -120px;
     z-index: 1;
     opacity: 0;
     transition: 1s opacity, 1s transform;
+}
+#mbstep {
+    margin-bottom: 200px;
 }
 .mbt {
-    max-width: 425px;
-    margin-left: -1300px;
-    margin-top: -50px;
+    max-width: 400px;
+    margin-left: -140px;
+    margin-top: -295px;
     z-index: 2;
     opacity: 0;
     transition: 1s opacity, 1s transform;
 }
+.connect {
+    max-width: 400px;
+    margin-left: -1200px;
+    margin-top: 210px;
+    z-index: 2;
+    opacity: 0;
+    transition: 1s opacity, 1s transform; 
+}
 .ssd {
-    width: 475px;
-    margin-left: -200px;
+    width: 130px;
+    height: 180px;
+    margin-top: -70px;
+    margin-left: 330px;
     z-index: 1;
     opacity: 0;
     transition: 1s opacity, 1s transform;
 }
 .hdd {
-    width: 475px;
-    margin-left: -150px;
+    width: 375px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top: 350px;
     z-index: 1;
     opacity: 0;
     transition: 1s opacity, 1s transform;
 }
+#ssdstep {
+    margin-bottom: 400px;
+}
 .psu {
-    width: 700px;
-    margin-left: -100px;
-    margin-top: 370px;
-    z-index: 3;
+    width: 390px;
+    margin-left: -120px;
+    margin-top: 270px;
+    z-index: 1;
     opacity: 0;
     transition: 1s opacity, 1s transform;
 }
 .graphics {
-    width: 600px;
+    width: 400px;
     margin-left: -150px;
     margin-top: 300px;
     z-index: 3;
     opacity: 0;
     transition: 1s opacity, 1s transform;
 }
-
+#gpustep {
+    margin-bottom: 500px;
+}
 
 
 .ram2 {
@@ -279,8 +312,9 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 170px;
+    margin-top: 10px;
     margin-bottom: 50px;
+    width: 100%;
 }
 h3 {
     text-align: center;
@@ -291,6 +325,31 @@ h3 {
 
 .s7 {
     width: 300px;
+}
+
+.credits {
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.credits a:link {
+    color: #333333;
+    text-decoration-line: none;
+}
+
+.credits a:visited {
+    color: #333333;
+    text-decoration-line: none;
+}
+
+.credits a:hover {
+    color: #008F95;
+    text-decoration-line: none;
+}
+
+.credits a:active {
+    text-decoration-line: none;
 }
 
 a:link {
